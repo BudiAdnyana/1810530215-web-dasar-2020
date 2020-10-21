@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TUGAS</title>
+</head>
+<hr>
+<body>
+	<h2 align="center">Form Biodata</h2>
+	<form method="post" action="#">
+		<table cellspacing="9">
+			<tr>
+				<td>
+					<label>NIM</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="text" name="txtnim" size="20" maxlength="10" placeholder="--Masukan NIM Anda--"></td>
+			</tr>
+			<tr>
+				<td>
+					<label>NAMA</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="text" name="txtnama" size="40" maxlength="40" placeholder="--Masukan Nama Anda--"></td>
+			</tr>
+			<tr>
+				<td>
+					<label>JENIS KELAMIN</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="radio" name="rbjk" value="L">Laki - Laki
+					<input type="radio" name="rbjk" value="P">Perempuan</td>
+			</tr>
+			<tr>
+				<td>
+					<label>JURUSAN</label>
+				</td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<select name="slctjurusan">
+						<option value="">Pilih...</option>
+						<option value="s1ilkom">S1 ILKOM</option>
+						<option value="d3ti">D3 TI</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>
+					<label>HOBBY</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="checkbox" name="chkhobby" value="komputer">Komputer
+					<input type="checkbox" name="chkhobby" value="musik">Musik
+					<input type="checkbox" name="chkhobby" value="olahraga">Olahraga
+					<input type="checkbox" name="chkhobby" value="travelling">Travelling
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>CATATAN</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<textarea name="txtarcatatan" cols="100" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td>
+					<label>FOTO</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="file" name="foto" accept="image/*"></td>
+			</tr>
+			<tr>
+				<td>
+					<label>EMAIL</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="text" name="txtemail" size="30" maxlength="30" placeholder="--Masukan Alamat Email Anda--"></td>
+			</tr>
+			<tr>
+				<td>
+					<label>SANDI LOGIN</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="password" name="passsandi" size="20" maxlength="20">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>ULANGI SANDI LOGIN</label></td>
+				<td>
+					<label> : </label></td>
+				<td>
+					<input type="password" name="passulsandi" size="20" maxlength="20">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>
+					<input type="submit" value="Simpan">
+					<input type="reset" value="Batal">
+					<input type="button" value="Peringatan">
+				</td>
+			</tr>
+
+		</table>
+		
+	</form>
+
+</body>
+</html>
