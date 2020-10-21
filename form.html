@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEMBUAT FORM</title>
+</head>
+<body>
+	<h2>Form Biodata</h2>
+	<hr>
+	<form method="post" action="#">
+		<label>NIM : </label>
+		<input type="text" name="txtnim" size="20" maxlength="10" placeholder="--Masukan NIM Anda--" >
+		<br>
+		<label>Nama : </label>
+		<input type="text" name="txtnama" size="50" maxlength="50" placeholder="--Masukan nama Anda--" >
+		<br>
+		<label>Jurusan : </label>
+		<select name="optjurusan" id="">
+			<option value="s1ilkom">S1 ILKOM</option>
+			<option value="d3ti">D3 TI</option>
+		</select>
+		<br>
+		<label for="">Jenis Kelamin : </label>
+		<input type="radio" name="rbjk" value="L"> Laki - Laki
+		<input type="radio" name="rbjk" value="P"> Perempuan
+		<br>
+		<br>
+		<input type="submit" value="Simpan">
+		<input type="reset" value="Batal">
+	</form>
+</body>
+</html>
